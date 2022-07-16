@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 800px;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #ffffff;
+
+  margin: 9vh auto;
+  background-color: #f3f3f3a9;
+}
+
+.main_heading {
+  text-align: center;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+#subject {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+  margin-top: 20px;
+  background-color: rgba(1, 119, 45, 0.737);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
+
+.submit:hover {
+  background-color: rgb(1, 119, 44);
+  cursor: grab;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css-code/feedback.css">
+  <feedback class="css"></feedback>
+  <title>Feedback Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <h1 class="main_heading">Feedback Form</h1>
+      <hr>
+      <strong>Name :</strong><input type="text" placeholder="Enter name here" class="blank" />
+      </p>
+      <p>
+        <strong>email : </strong><input type="email" placeholder="Enter email here" class="blank" />
+      </p>
+      <p>
+        <strong>Phone Number :</strong><input type="tel" placeholder="Enter phone number here" class="blank" />
+      </p>
+      <p><strong>select your gender &darr;</strong></p>
+      <select name="gender" id="gender">
+        <option value="no-gender">select your gender</option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="no-gender">me nhi btaunga</option>
+      </select>
+      <fieldset>
+        <legend><strong>do u like our website ?</strong></legend>
+        <label for="answer1">
+          <input type="radio" value="yes" name="answer" id="answer1" />yes<br />
+        </label>
+        <label for="answer2">
+          <input type="radio" value="no" name="answer" id="answer2" />no<br />
+        </label>
+      </fieldset>
+      <p>
+        <strong>feedback :</strong>
+        <textarea name="explain" id="explain" cols="20" rows="10" placeholder="any feedback for us"
+          class="text-area"></textarea>
+      </p>
+      <button class="submit">Submit</button>
+      <button class="reset">reset</button>
+    </form>
+  </div>
+</body>
+
+</html>
